@@ -1,0 +1,30 @@
+Nov 11 17:24:42.351 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 11 17:24:42.361 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59124.
+Nov 11 17:24:42.827 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 11 17:24:42.830 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mario\GNS3\projects\projeto\v1\projeto-calendar-inc\project-files\dynamips 
+Nov 11 17:24:42.830 GENERAL: working_dir=C:\Users\mario\GNS3\projects\projeto\v1\projeto-calendar-inc\project-files\dynamips
+Nov 11 17:24:42.830 HYPERVISOR: exec_cmd: ethsw create SW6 
+Nov 11 17:24:46.883 HYPERVISOR: exec_cmd: nio create_udp udp-77e8829f-f65e-497e-9640-210951d8bd93 20019 127.0.0.1 20018 
+Nov 11 17:24:46.888 HYPERVISOR: exec_cmd: ethsw add_nio SW6 udp-77e8829f-f65e-497e-9640-210951d8bd93 
+Nov 11 17:24:46.902 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-77e8829f-f65e-497e-9640-210951d8bd93 1 
+Nov 11 17:24:46.973 HYPERVISOR: exec_cmd: nio create_udp udp-4d7d90cd-f22e-4bdb-a0fd-c90eb1736104 20022 127.0.0.1 20023 
+Nov 11 17:24:46.978 HYPERVISOR: exec_cmd: ethsw add_nio SW6 udp-4d7d90cd-f22e-4bdb-a0fd-c90eb1736104 
+Nov 11 17:24:47.000 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-4d7d90cd-f22e-4bdb-a0fd-c90eb1736104 1 
+Nov 11 17:24:47.070 HYPERVISOR: exec_cmd: nio create_udp udp-c406e0c5-47c0-4edd-80ab-e5ab4bb1e488 20024 127.0.0.1 20025 
+Nov 11 17:24:47.076 HYPERVISOR: exec_cmd: ethsw add_nio SW6 udp-c406e0c5-47c0-4edd-80ab-e5ab4bb1e488 
+Nov 11 17:24:47.093 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-c406e0c5-47c0-4edd-80ab-e5ab4bb1e488 1 
+Nov 11 17:24:47.171 HYPERVISOR: exec_cmd: nio create_udp udp-9b1777da-744e-410c-b918-d8bde4df013a 20026 127.0.0.1 20027 
+Nov 11 17:24:47.173 HYPERVISOR: exec_cmd: ethsw add_nio SW6 udp-9b1777da-744e-410c-b918-d8bde4df013a 
+Nov 11 17:24:47.189 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-9b1777da-744e-410c-b918-d8bde4df013a 1 
+Nov 11 18:00:53.497 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW6 udp-77e8829f-f65e-497e-9640-210951d8bd93 1 
+Nov 11 18:00:53.499 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-4d7d90cd-f22e-4bdb-a0fd-c90eb1736104 1 
+Nov 11 18:00:53.499 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-c406e0c5-47c0-4edd-80ab-e5ab4bb1e488 1 
+Nov 11 18:00:53.499 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-9b1777da-744e-410c-b918-d8bde4df013a 1 
+Nov 11 18:01:54.701 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW6 udp-77e8829f-f65e-497e-9640-210951d8bd93 1 
+Nov 11 18:01:54.701 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-4d7d90cd-f22e-4bdb-a0fd-c90eb1736104 4 
+Nov 11 18:01:54.701 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-c406e0c5-47c0-4edd-80ab-e5ab4bb1e488 2 
+Nov 11 18:01:54.711 HYPERVISOR: exec_cmd: ethsw set_access_port SW6 udp-9b1777da-744e-410c-b918-d8bde4df013a 2 
+Nov 11 22:40:12.137 HYPERVISOR: exec_cmd: ethsw delete SW6 
+Nov 11 22:40:12.254 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 11 22:40:12.457 HYPERVISOR: Stopped.
+Nov 11 22:40:12.457 GENERAL: reset done.
